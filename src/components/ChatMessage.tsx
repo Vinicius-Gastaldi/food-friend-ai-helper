@@ -1,7 +1,7 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card } from "@/components/ui/card";
-import { Chef } from "lucide-react";
+import { UtensilsCrossed } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface ChatMessageProps {
@@ -22,7 +22,7 @@ const ChatMessage = ({ message, isUser = false, isLoading = false }: ChatMessage
         ) : (
           <>
             <AvatarFallback className="bg-food-primary text-white">
-              <Chef className="h-5 w-5" />
+              <UtensilsCrossed className="h-5 w-5" />
             </AvatarFallback>
             <AvatarImage src="/chef-ai.png" alt="ChefAI" />
           </>

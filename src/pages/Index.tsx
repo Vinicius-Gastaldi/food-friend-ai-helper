@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent, CardDescription, CardFooter }
 import { Button } from "@/components/ui/button";
 import ChatInterface from "@/components/ChatInterface";
 import Footer from "@/components/Footer";
-import { Chef, MapPin, Clock, Fork } from "lucide-react";
+import { UtensilsCrossed, MapPin, Clock, UtensilsCrossed as DiningIcon } from "lucide-react";
 
 const Index = () => {
   return (
@@ -46,7 +46,7 @@ const Index = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Fork className="h-5 w-5 text-food-primary" />
+                  <DiningIcon className="h-5 w-5 text-food-primary" />
                   <span>Culinária de Qualidade</span>
                 </CardTitle>
               </CardHeader>
@@ -96,7 +96,7 @@ const Index = () => {
               <Card className="shadow-lg border-food-secondary/20">
                 <CardHeader className="bg-food-accent text-food-dark">
                   <CardTitle className="flex items-center gap-2">
-                    <Chef className="h-5 w-5 text-food-primary" />
+                    <UtensilsCrossed className="h-5 w-5 text-food-primary" />
                     <span>Assistente ChefAI</span>
                   </CardTitle>
                   <CardDescription>

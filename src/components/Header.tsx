@@ -1,5 +1,5 @@
 
-import { Chef, MenuIcon, ShoppingCart } from "lucide-react";
+import { UtensilsCrossed, MenuIcon, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
@@ -10,7 +10,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm border-b">
       <div className="container mx-auto py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Chef className="h-8 w-8 text-food-primary" />
+          <UtensilsCrossed className="h-8 w-8 text-food-primary" />
           <h1 className="text-xl font-bold">ChefAI</h1>
         </div>
         
