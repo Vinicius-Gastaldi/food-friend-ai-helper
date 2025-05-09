@@ -1,4 +1,3 @@
-
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -27,21 +26,21 @@ const popularDishes = [
     title: "Pasta Carbonara",
     description: "Espaguete com molho cremoso de ovos, queijo parmesão, pimenta preta e pancetta.",
     price: "R$45,90",
-    imageSrc: "https://source.unsplash.com/random/300x200/?pasta,carbonara"
+    imageSrc: "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=300&h=200&auto=format&fit=crop"
   },
   {
     id: "2",
     title: "Risoto de Funghi",
     description: "Arroz arbóreo cozido lentamente com mix de cogumelos e finalizado com manteiga e parmesão.",
     price: "R$52,90",
-    imageSrc: "https://source.unsplash.com/random/300x200/?risotto,mushroom"
+    imageSrc: "https://images.unsplash.com/photo-1640719028782-8230f1bdc544?q=80&w=300&h=200&auto=format&fit=crop"
   },
   {
     id: "3",
     title: "Picanha na Brasa",
     description: "Corte premium de picanha grelhada, acompanhada de arroz, farofa e vinagrete.",
     price: "R$72,90",
-    imageSrc: "https://source.unsplash.com/random/300x200/?steak,bbq"
+    imageSrc: "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?q=80&w=300&h=200&auto=format&fit=crop"
   }
 ];
 
