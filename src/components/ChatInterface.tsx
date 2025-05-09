@@ -1,3 +1,4 @@
+
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -33,7 +34,7 @@ const popularDishes = [
     title: "Risoto de Funghi",
     description: "Arroz arbóreo cozido lentamente com mix de cogumelos e finalizado com manteiga e parmesão.",
     price: "R$52,90",
-    imageSrc: "https://images.unsplash.com/photo-1640719028782-8230f1bdc544?q=80&w=300&h=200&auto=format&fit=crop"
+    imageSrc: "https://images.unsplash.com/photo-1518089647846-fc2fa0704265?q=80&w=300&h=200&auto=format&fit=crop"
   },
   {
     id: "3",
